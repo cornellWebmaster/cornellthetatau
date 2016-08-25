@@ -137,7 +137,7 @@
 <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
     <div>
     	<center>
-		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Spring Recruitment Application</h6>
+		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Fall Recruitment Application</h6>
 		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: SEPTEMBER 7 @ NOON</h6>
     	</center>
     </div>
