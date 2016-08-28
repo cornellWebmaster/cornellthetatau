@@ -1,0 +1,23 @@
+* Update brother bios
+* Add Kappa Class
+* Add rush application
+* Remove graduated brothers
+* Update brother images
+Update Title Tag and Meta Description for better SEO
+Clean up website files - only keep necessary files
+Fix company logo sizes
+Add login
+Add brother news feed
+Resume book?
+Create new design take brotherhood's opinion
+
+* = Done
+
+
+Goals:
+- Increase user engagement by 50-60%
+- Increase pageviews from 1.35 to 3+
+- Increase average time on site from 2 seconds to 30+ seconds
+- Reduce bounce rate from 63% to less than 55%
+- Increase traffic by 10-15% with better SEO and by building site authority
+- Increase pagerank (need google analytics numbers)
