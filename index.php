@@ -4,7 +4,7 @@
 		<!-- Basic Page Needs
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<meta charset="utf-8">
-		<title>Theta Tau Cornell - Professional Engineering Fraternity</title>
+		<title>Theta Tau Cornell - Professional Engineering Fraternity </title>
 		<meta name="description" content="The Foremost Professional Engineering Fraternity">
 		<meta name="author" content="Andrew Aquino, Brandon Hartz, Varun Hegde, Valerie Hu, Yuxiao Tan">
 
