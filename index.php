@@ -4,7 +4,7 @@
 		<!-- Basic Page Needs
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<meta charset="utf-8">
-		<title>Theta Tau Cornell</title>
+		<title>Theta Tau Cornell - Professional Engineering Fraternity </title>
 		<meta name="description" content="The Foremost Professional Engineering Fraternity">
 		<meta name="author" content="Andrew Aquino, Brandon Hartz, Varun Hegde, Valerie Hu, Yuxiao Tan">
 
@@ -134,41 +134,41 @@
 
 <!-- Apply Now
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
- <!--  <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
-       	<div>
-    		<center>
-			 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Spring Recruitment Application</h6>
-			 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: FEBRUARY 3 @ NOON</h6>
-
-    		</center>
-    	</div>
-    <div class="row mx-auto">
+<div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
+    <div>
+    	<center>
+		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Fall Recruitment Application</h6>
+		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: SEPTEMBER 7 @ NOON</h6>
+    	</center>
+    </div>
+	<div class="row mx-auto">
     	<div class="six columns p4">
 			<h6 class="mb0">Information Session 1</h6>
-			<p class="caption"> February 1 | 7:00PM - 9:00PM | Olin 155 </p>  
+			<p class="caption"> September 1 | 7:00PM - 9:00PM | Olin 155 </p>  
     	</div>
     	<div class="six columns p4">
 			<h6 class="mb0">Information Session 2</h6>
-			<p class="caption"> February 2 | 7:00PM - 9:00PM | Olin 155 </p>
+			<p class="caption"> September 6 | 7:00PM - 9:00PM | Olin 155 </p>
     	</div>
     </div>
     <div style="padding: 0 40px 40px 40px;">
-	      <p class="h7 regular grey caption mb0 ">1. Freshmen or Sophomores enrolled in an Engineering program (Includes Computer Science, Information Science, and Biological Engineering outside the College of Engineering).</p>
+	      <p class="h7 regular grey caption mb0 ">1. Sophomores or Juniors enrolled in an Engineering program (Includes Computer Science, Information Science, and Biological Engineering outside the College of Engineering).</p>
 	      <p class="h7 regular grey caption mb0 ">2. Must be at least 18 years of age at the time of initiation.</p>
 	      <p class="h7 regular grey caption mb0 ">3. Must have a cumulative GPA of 2.5 or higher. Please include GPA on resume.</p>
-	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance strongly encouraged.</p>
+	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory. Contact recruitment chair Junie Khang (jk2235@cornell.edu) if you have a conflict.</p>
 	</div>
 	<div class="p4">
-		<a name="form777100144" id="formAnchor777100144"></a>
-		<script type="text/javascript" src="https://fs12.formsite.com/include/form/embedManager.js?777100144"></script>
+		<a name="form200217362" id="formAnchor200217362"></a>
+		<script type="text/javascript" src="https://fs12.formsite.com/include/form/embedManager.js?200217362"></script>
 		<script type="text/javascript">
 		EmbedManager.embed({
-			key: "https://fs12.formsite.com/res/showFormEmbed?EParam=B6fiTn%2BRcO7wdV3ZKJEjbkHp%2BOxx3Si2&777100144",
+			key: "https://fs12.formsite.com/res/showFormEmbed?EParam=B6fiTn%2BRcO7wdV3ZKJEjbotnCkg3VqvK&200217362",
 			width: "100%",
 			mobileResponsive: true
 		});
 		</script>
-	</div> -->
+	</div>
+</div>
 	
 	<!-- dont use the form below me use the one above me :) -->
 
@@ -284,7 +284,7 @@
 			</div>
 			<div class="row">
 				<div class="two column center">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Richa Deshpande</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Megan Messick</h6>
 					<p class="caption ">Philanthropy Chair</p>
 				</div>
 			</div>
@@ -307,10 +307,10 @@
 			</div>
 			<div class="row center">
 				<div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Pavan Yalla</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Addison Huneycutt</h6>
 					<p class="caption ">Social Chair</p>
 				</div><div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Nikita Gupta</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Katie Dao</h6>
 					<p class="caption ">Social Chair</p>
 				</div>
 			</div>
@@ -326,9 +326,12 @@
 					</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="two column center">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Hannah Rudin</h6>
+			<div class="row center">
+				<div class="six columns">
+					<h6 class="h7 decorated-3 mb0 mt1 ">Jeannie Fu</h6>
+					<p class="caption ">Professional Development Chair</p>
+				</div><div class="six columns">
+					<h6 class="h7 decorated-3 mb0 mt1 ">Nick Akrawi</h6>
 					<p class="caption ">Professional Development Chair</p>
 				</div>
 			</div>
@@ -735,6 +738,7 @@ foreach( $eboard as $position => $data )
 
 	if( !file_exists( $img_path ) )
 	{
+		$bio = "No Show";
 		$img_path = "img/brothers/".$img_name.".png";
 		if( !file_exists( $img_path ) )
 		{
