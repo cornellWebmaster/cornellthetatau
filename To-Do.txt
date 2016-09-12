@@ -6,6 +6,8 @@
 Update Title Tag and Meta Description for better SEO
 Clean up website files - only keep necessary files
 Fix company logo sizes
+Add links to companies through logos
+Make logos highlight on hover to increase user engagement -- more clicks on logos
 Add login
 Add brother news feed
 Resume book?
