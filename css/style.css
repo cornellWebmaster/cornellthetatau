@@ -888,26 +888,47 @@ label.myLabel input[type="file"] {
   color: green;
 }
 
-.carousel .button-outline{
+.carousel-white .button-outline{
   border: 0px solid transparent;
   -webkit-transition: all 0.2s ease;
         transition: all 0.2s ease;
 }
 
-.carousel .button-outline:hover{
+.carousel-white .button-outline:hover{
   top: 0;
   color: grey;
   border: 1px solid #333333;
 }
 
-.carousel .button-outline:active{
+.carousel-white .button-outline:active{
   color:;
   border: 1px solid #FAFAFA;
 }
 
-.carousel .button-outline:focus{
+.carousel-white .button-outline:focus{
   color: white;
   border: 1px solid #FAFAFA;
+}
+
+.carousel-black .button-outline{
+  border: 0px solid transparent;
+  -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+}
+
+.carousel-black .button-outline:hover{
+  top: 0;
+  border: 1px solid grey;
+}
+
+.carousel-black .button-outline:active{
+  color:;
+  border: 1px solid #333333;
+}
+
+.carousel-black .button-outline:focus{
+  color: black;
+  border: 1px solid #333333;
 }
 
 

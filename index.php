@@ -133,7 +133,7 @@
   </div>
 
 <!-- Apply Now
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– ->
 <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
     <div>
     	<center>
@@ -251,7 +251,7 @@
 		<div class="row">
 			<h2 class="bold offwhite center">What we do</h2>
 		</div>
-		<div class="row mb2">
+		<div class="row mb2 mt4">
 			<div class="w-50 mx-auto">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="52px" height="2px" viewBox="0 0 52 2" version="1.1">
 					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
@@ -261,7 +261,7 @@
 			</div>
 		</div>
 		<div class="row mb4 mt4">
-			<div class="mx-auto width_auto w-640 carousel">
+			<div class="mx-auto width_auto w-640 carousel-white">
 				<button id="btn-philanthropy" class="button button-outline four columns">Philanthropy</button>
 				<button id="btn-brotherhood" class="button button-outline four columns">Brotherhood</button>
 				<button id="btn-professionalism" class="button button-outline four columns">Professionalism</button>
@@ -339,54 +339,158 @@
 	</div>
 </div>
 
+
   <!-- Where We've Been
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div id="portfolio" class="container bb-grey pt8 pb12">
-        <div class="row">
-          <h6 class="decorated">Portfolio</h6>
-          <h2 class="bold">We've been to great places</h2>
-        </div>
-
-        <div class="row">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="52px" height="2px" viewBox="0 0 52 2" version="1.1">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-                    <path d="M1.5,1 L50.3364601,1" id="Line" stroke="#E03B3B" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"/>
-                </g>
-            </svg>
-        </div>
+  <div id="portfolio" class="container bb-grey pt8 pb1">
 		<div class="row">
-		<?php
-			$count = 1;
-			$dir = "img/employers";
-			$employers = glob( $dir."/*.png" );
-
-			foreach( $employers as $employer )
-			{
-		?>
-				<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
-							<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
-				</div>
-		<?php
-			}
-		?>
+			<h2 class="bold offblack center">We've been to great places</h2>
 		</div>
-		<div class="row">
-		<?php
-			$count = 1;
-			$dir = "img/schools";
-			$employers = glob( $dir."/*.png" );
-
-			foreach( $employers as $employer )
-			{
-		?>
-				<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
-							<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
-				</div>
-		<?php
-			}
-		?>
+		<div class="row mb2 mt4">
+			<div class="w-50 mx-auto">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="52px" height="2px" viewBox="0 0 52 2" version="1.1">
+					<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+						<path d="M1.5,1 L50.3364601,1" id="Line" stroke="#E03B3B" stroke-width="2" stroke-linecap="square" sketch:type="MSShapeGroup"/>
+					</g>
+				</svg>
+			</div>
 		</div>
+
+		<div class="row mb4 mt4">
+			<div class="mx-auto width_auto w-640 carousel-black">
+				<button id="btn-employers" class="button button-outline four columns">Employers</button>
+				<button id="btn-schools" class="button button-outline four columns">Grad Schools</button>
+				<button id="btn-campus" class="button button-outline four columns">On Campus</button>
+			</div>
+		</div>
+		<div id="employers">
+			<div class="row">
+				<?php 
+					$count = 1;
+					$dir = "img/employers";
+					$employers = glob( $dir."/*.png" );
+					$MAX_LOGO = 18;
+
+					if (sizeof($employers) > $MAX_LOGO) {
+						for ($i = 0; $i < $MAX_LOGO; $i++) {
+							$employer = $employers[$i];
+							?>
+								<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+									<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+								</div>
+							<?php
+						}
+						?>
+							</div>
+							<div class="mx-auto width_auto w-320 carousel-black">
+								<button id="btn-see-more" class="button button-outline columns">See All</button>
+						<?php
+					} else {
+						foreach( $employers as $employer ) {
+						?>
+							<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+								<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+							</div>
+						<?php
+						}
+					}
+				?>		
+			</div>
+		</div>
+		<div id="employers-more">
+			<div class="row">
+				<?php 
+					$count = 1;
+					$dir = "img/employers";
+					$employers = glob( $dir."/*.png" );
+					$MAX_LOGO = 18;
+					$LOGO_HEIGHT = 155;
+
+					for ($i = $MAX_LOGO; $i < sizeof($employers); $i++) {
+						$employer = $employers[$i];
+						?>
+							<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2" style="height: <?php echo $LOGO_HEIGHT ?>px">
+								<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+							</div>
+						<?php
+					}
+					?>	
+			</div>
+			<div class="mx-auto width_auto w-320 carousel-black">
+				<button id="btn-see-less" class="button button-outline columns">See Less</button>
+			</div>
+		</div>
+		<div id="schools">
+			<div class="row">
+				<?php 
+					$count = 1;
+					$dir = "img/schools";
+					$employers = glob( $dir."/*.png" );
+					$MAX_LOGO = 18;
+
+					if (sizeof($employers) > $MAX_LOGO) {
+						for ($i = 0; $i < $MAX_LOGO; $i++) {
+							$employer = $employers[$i];
+							?>
+								<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+									<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+								</div>
+							<?php
+						}
+						?>
+							</div>
+							<div class="mx-auto width_auto w-320 carousel-black">
+								<button id="btn-see-more" class="button button-outline columns">See All</button>
+						<?php
+					} else {
+						foreach( $employers as $employer ) {
+						?>
+							<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+								<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+							</div>
+						<?php
+						}
+					}
+				?>		
+			</div>
+		</div>
+		<div id="campus">
+			<div class="row">
+				<?php 
+					$count = 1;
+					$dir = "img/campus";
+					$employers = glob( $dir."/*.png" );
+					$MAX_LOGO = 18;
+
+					if (sizeof($employers) > $MAX_LOGO) {
+						for ($i = 0; $i < $MAX_LOGO; $i++) {
+							$employer = $employers[$i];
+							?>
+								<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+									<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+								</div>
+							<?php
+						}
+						?>
+							</div>
+							<div class="mx-auto width_auto w-320 carousel-black">
+								<button id="btn-see-more" class="button button-outline columns">See All</button>
+						<?php
+					} else {
+						foreach( $employers as $employer ) {
+						?>
+							<div class="col col-4 sm-col sm-col-4 md-col-3 lg-col-2 sublabel blocks pt2 pb2 pr2 pl2">
+								<img class="employer-logo vertical-align" src="<?php echo $employer; ?>"/>
+							</div>
+						<?php
+						}
+					}
+				?>		
+			</div>
+		</div>
+
   </div>
+
 
 <!-- Eboard
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -561,7 +665,7 @@
 
 	</div>
 </div>
-<!-- Brothers
+  <!-- Brothers
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container bb-grey pt4 pb8">
 		<?php
@@ -673,7 +777,7 @@
 				<div class="row">
 					<div class="eight columns offset-by-two mt2">
 						<!--<p class="grey lh2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tincidunt, purus sit amet hendrerit consectetur, urna velit blandit odio, nec venenatis metus sem non tellus. Nam mattis lorem eget nisi accumsan consequat.</p>-->
-						<h6 class="copy mb0 regular h7 grey left decorated-2">© 2015 Theta Tau Cornell<br/>by Andrew Aquino, Brandon Hartz, Varun Hegde, Valerie Hu, Yuxiao Tan</h6>
+						<h6 class="copy mb0 regular h7 grey left decorated-2">© 2016 Theta Tau Cornell<br/>by Andrew Aquino, Brandon Hartz, Varun Hegde, Valerie Hu, Yuxiao Tan</h6>
 					</div>
 				</div>
 
@@ -955,6 +1059,9 @@ foreach( $eboard as $position => $data )
 	$(document).ready(function() {
 		$("#professionalism").hide();
 		$("#brotherhood").hide();
+		$("#schools").hide();
+		$("#employers-more").hide();
+		$("#campus").hide();
 
 		$("#btn-professionalism").click(function() {
 			$("#brotherhood").hide();
@@ -973,6 +1080,43 @@ foreach( $eboard as $position => $data )
 			$("#professionalism").hide();
 			$("#brotherhood").slideDown();
 		});
+
+		$("#btn-employers").click(function() {
+			$("#schools").hide();
+			$("#campus").hide();
+			$("#employers-more").hide();
+			$("#btn-see-more").show();
+			$("#employers").slideDown();
+		});
+
+		$("#btn-schools").click(function() {
+			$("#employers").hide();
+			$("#campus").hide();
+			$("#employers-more").hide();
+			$("#btn-see-more").show();
+			$("#schools").slideDown();
+		});
+
+		$("#btn-campus").click(function() {
+			$("#employers").hide();
+			$("#schools").hide();
+			$("#employers-more").hide();
+			$("#btn-see-more").show();
+			$("#campus").slideDown();
+		});
+
+		$("#btn-see-more").click(function() {
+			$("#employers-more").slideDown();
+			$("#btn-see-more").hide();
+			$("#btn-see-less").show();
+		});		
+
+		$("#btn-see-less").click(function() {
+			$("#employers-more").slideUp();
+			$("#btn-see-more").show();
+			$("#btn-see-less").hide();
+		});		
+
 
 		$(".nav-home").click(function() {
 			$('html, body').animate({
@@ -1016,8 +1160,11 @@ foreach( $eboard as $position => $data )
 
 			$('html, body').animate({scrollTop: 0}, 300);
 		})
+
+
 	});
 </script>
+
 
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
