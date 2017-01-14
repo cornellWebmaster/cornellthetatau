@@ -138,24 +138,26 @@
     <div>
     	<center>
 		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Fall Recruitment Application</h6>
-		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: SEPTEMBER 7 @ NOON</h6>
+		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: FEBRUARY 1 @ NOON</h6>
     	</center>
     </div>
 	<div class="row mx-auto">
     	<div class="six columns p4">
 			<h6 class="mb0">Information Session 1</h6>
-			<p class="caption"> September 1 | 7:00PM - 9:00PM | Olin 155 </p>  
+			<p class="caption"> January 30 | 7:00PM - 9:00PM | Olin 155 </p>  
     	</div>
     	<div class="six columns p4">
 			<h6 class="mb0">Information Session 2</h6>
-			<p class="caption"> September 6 | 7:00PM - 9:00PM | Olin 155 </p>
+			<p class="caption"> January 31 | 7:00PM - 9:00PM | Olin 155 </p>
     	</div>
     </div>
     <div style="padding: 0 40px 40px 40px;">
 	      <p class="h7 regular grey caption mb0 ">1. Sophomores or Juniors enrolled in an Engineering program (Includes Computer Science, Information Science, and Biological Engineering outside the College of Engineering).</p>
 	      <p class="h7 regular grey caption mb0 ">2. Must be at least 18 years of age at the time of initiation.</p>
 	      <p class="h7 regular grey caption mb0 ">3. Must have a cumulative GPA of 2.5 or higher. Please include GPA on resume.</p>
-	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory. Contact recruitment chair Junie Khang (jk2235@cornell.edu) if you have a conflict.</p>
+	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory.</p>
+	      <br>
+	      <p class="h6 regular grey caption mb0 "> If you have a conflict or any questions/comments contact recruitment chair Lindsey Frank at Lrf52@cornell.edu</p>
 	</div>
 	<div class="p4">
 		<a name="form200217362" id="formAnchor200217362"></a>
