@@ -137,8 +137,8 @@
 <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
     <div>
     	<center>
-		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Fall Recruitment Application</h6>
-		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: FEBRUARY 1 @ NOON</h6>
+		 <h6 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">Spring Recruitment Application</h6>
+		 <h7 class="decorated-2 mb3" style="margin:0; padding-top: 40px;">DEADLINE: FEBRUARY 1, 2017 @ NOON</h6>
     	</center>
     </div>
 	<div class="row mx-auto">
@@ -763,16 +763,16 @@
 				<div class="ten columns">
 					<div class="row">
 						<div class="three columns">
-							<p class="grey lh2">Arpit Sheth<br>Regent<br><a href="#">ass222@cornell.edu</a></p>
+							<p class="grey lh2">Andrea Clinch<br>Regent<br><a href="#">abc249@cornell.edu</a></p>
 						</div>
 						<div class="three columns">
-							<p class="grey lh2">Taylor Schoettle<br>Treasurer<br><a href="#">tjs323@cornell.edu</a></p>
+							<p class="grey lh2">Katrina Lastra<br>Vice Regent<br><a href="#">kl755@cornell.edu</a></p>
 						</div>
 						<div class="three columns">
-							<p class="grey lh2">Brittney Chew<br>Vice Regent<br><a href="#">bac245@cornell.edu</a></p>
+							<p class="grey lh2">Eric Johnson<br>Treasurer<br><a href="#">edj36@cornell.edu</a></p>
 						</div>
 						<div class="three columns">
-							<p class="grey lh2">Sahitya Mantravadi<br>Scribe<br><a href="#">sm987@cornell.edu</a></p>
+							<p class="grey lh2">Amelia Sugianto<br>Scribe<br><a href="#">as2493@cornell.edu</a></p>
 						</div>
 					</div>
 				</div>
