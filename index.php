@@ -133,7 +133,7 @@
   </div>
 
 <!-- Apply Now
-  –––––––––––––––––––––––––––––––––––––––––––––––––– ->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
     <div>
     	<center>
@@ -152,7 +152,7 @@
     	</div>
     </div>
     <div style="padding: 0 40px 40px 40px;">
-	      <p class="h7 regular grey caption mb0 ">1. Sophomores or Juniors enrolled in an Engineering program (Includes Computer Science, Information Science, and Biological Engineering outside the College of Engineering).</p>
+	      <p class="h7 regular grey caption mb0 ">1. Freshmen or Sophomores enrolled in an Engineering program (Includes Computer Science, Information Science, and Biological Engineering outside the College of Engineering).</p>
 	      <p class="h7 regular grey caption mb0 ">2. Must be at least 18 years of age at the time of initiation.</p>
 	      <p class="h7 regular grey caption mb0 ">3. Must have a cumulative GPA of 2.5 or higher. Please include GPA on resume.</p>
 	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory.</p>
