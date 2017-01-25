@@ -286,7 +286,7 @@
 			</div>
 			<div class="row">
 				<div class="two column center">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Megan Messick</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Anna Lawrence</h6>
 					<p class="caption ">Philanthropy Chair</p>
 				</div>
 			</div>
@@ -309,10 +309,10 @@
 			</div>
 			<div class="row center">
 				<div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Addison Huneycutt</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Deepthi Krovvidi</h6>
 					<p class="caption ">Social Chair</p>
 				</div><div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Katie Dao</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Arpit Sheth</h6>
 					<p class="caption ">Social Chair</p>
 				</div>
 			</div>
@@ -330,10 +330,10 @@
 			</div>
 			<div class="row center">
 				<div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Jeannie Fu</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Yezy Lim</h6>
 					<p class="caption ">Professional Development Chair</p>
 				</div><div class="six columns">
-					<h6 class="h7 decorated-3 mb0 mt1 ">Nick Akrawi</h6>
+					<h6 class="h7 decorated-3 mb0 mt1 ">Jeannie Fu</h6>
 					<p class="caption ">Professional Development Chair</p>
 				</div>
 			</div>
