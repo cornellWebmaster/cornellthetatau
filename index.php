@@ -304,7 +304,7 @@
 			<div class="row mt4">
 				<div class="six columns offwhite">
 					<p>
-						At Cornell Theta Tau, the bonds we make are integral to our Cornell experiences and to our future professional careers. Nikita and Pavan, the social chairs, are in charge of planning and organizing interactive activities were brothers strengthen friendships and make memories. The brothers of Theta Tau have enjoyed formal events scheduled at the end of every semester, date nights, pledge class bonding events, and excursions to off-campus activities, such as apple picking, go-karting, and team building.
+						At Cornell Theta Tau, the bonds we make are integral to our Cornell experiences and to our future professional careers. Deepthi and Arpit, the social chairs, are in charge of planning and organizing interactive activities were brothers strengthen friendships and make memories. The brothers of Theta Tau have enjoyed formal events scheduled at the end of every semester, date nights, pledge class bonding events, and excursions to off-campus activities, such as apple picking, go-karting, and team building.
 					</p><p>
 						Events are also focused on the Cornell community. Inter-fraternity events with other professional fraternities at Cornell as well as Slope Day are a few favorite events. We are keen on maintaining strong relationships within the Brotherhood as well as expanding our network by hosting social events with other professional fraternities at Cornell.
 					</p>
