@@ -602,7 +602,14 @@
 							$Name = str_replace( " ", "_", $data["full_name"] );
 
 							$img_name = strtolower($Name[0].str_replace( "_", "", substr( $Name, strpos( $Name, "_") ) ));
-							$img_path = "img/brothers/".$img_name.".jpg";
+							
+                            /* Request to have separate pics cropped from same pic next to each other */
+                            if($img_name == "dkrovvidi" || $img_name == "bgassaway") {
+                                $img_path = "img/brothers/".$img_name."2.jpg";
+                            }
+                            else {
+                                $img_path = "img/brothers/".$img_name.".jpg";
+                            }
 
 							if( !file_exists( $img_path ) )
 							{
