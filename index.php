@@ -69,9 +69,8 @@
 
     </script>
 
-
 		<!-- Favicon
-		–––––––––––––––––––––––––––––s––––––––––––––––––––– -->
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<link rel="icon" type="image/png" href="img/favicon.ico">
 	</head>
 <body>
@@ -85,7 +84,7 @@
 
 <ul class="navigation mobile">
     <li class="nav-item"><a class="nav-home" >Home</a></li>
-<!--     <li class="nav-item"><a class="nav-apply">Apply</a></li> -->
+    <li class="nav-item"><a class="nav-apply">Apply</a></li>
     <li class="nav-item"><a class="nav-about-us">About</a></li>
     <li class="nav-item"><a class="nav-portfolio">Portfolio</a></li>
     <li class="nav-item"><a class="nav-brothers">Brothers</a></li>
@@ -118,6 +117,7 @@
 			<a class="link menu-item nav-portfolio">Portfolio</a>
 			<a class="link menu-item nav-about-us">About</a>
 			<a class="link menu-item nav-apply">Apply</a>
+            <a class="link menu-item nav-home">Home</a>
 		</div>
       </div>
     </div>
