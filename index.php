@@ -158,6 +158,7 @@
 	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory.</p>
 	      <br>
 	      <p class="h6 regular grey caption mb0 "> If you have a conflict or any questions/comments contact recruitment chair Lindsey Frank at Lrf52@cornell.edu</p>
+          <p class="h6 regular grey caption mb0 "> Like us on Facebook for quick updates: <a href=http://facebook.com/cornellthetatau>http://facebook.com/cornellthetatau</a></p>
 	</div>
 
 	<div class="p4">
