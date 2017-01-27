@@ -158,13 +158,8 @@
 	      <p class="h6 regular grey caption mb0 ">4. Information Session attendance is mandatory.</p>
 	      <br>
 	      <p class="h6 regular grey caption mb0 "> If you have a conflict or any questions/comments contact recruitment chair Lindsey Frank at Lrf52@cornell.edu</p>
-          <br>
-          <h6 class="mb0">Please check back soon for the application. In the meantime, we invite you to attend one of our information sessions on Monday, January 30 at 7pm in Olin 155 or Tuesday, January 31 at 7pm in Olin 155.
-          </h6>
 	</div>
 
-	<?php
-	/*
 	<div class="p4">
 		<a name="form200217362" id="formAnchor200217362"></a>
 		<script type="text/javascript" src="https://fs12.formsite.com/include/form/embedManager.js?200217362"></script>
@@ -176,8 +171,6 @@
 		});
 		</script>
 	</div>
-	*/
-	?>
 
 </div>
 	
@@ -554,6 +547,14 @@
 							if( !file_exists( $img_path ) )
 							{
 								$img_path = "img/brothers/".$img_name.".png";
+
+                                if( !file_exists( $img_path ) )
+                                    {
+                                        $img_path = "img/brothers/noshow.png";
+
+
+                                        
+                                    }
 							}
 			?>
 				<div class="col sm-col sm-col-4 md-col-3 lg-col-2 sublabel p-small blocks">
@@ -605,6 +606,14 @@
 							if( !file_exists( $img_path ) )
 							{
 								$img_path = "img/brothers/".$img_name.".png";
+
+                                if( !file_exists( $img_path ) )
+                                    {
+                                        $img_path = "img/brothers/noshow.png";
+
+
+                                        
+                                    }
 							}
 			?>
 
