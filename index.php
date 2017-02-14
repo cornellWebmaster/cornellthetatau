@@ -116,7 +116,7 @@
 			<a class="link menu-item nav-brothers">Brothers</a>
 			<a class="link menu-item nav-portfolio">Portfolio</a>
 			<a class="link menu-item nav-about-us">About</a>
-			<a class="link menu-item nav-apply">Apply</a>
+			<!-- <a class="link menu-item nav-apply">Apply</a> -->
             <a class="link menu-item nav-home">Home</a>
 		</div>
       </div>
@@ -133,7 +133,7 @@
   </div>
 
 <!-- Apply Now
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– ->
 <div id="apply" class="container w-800 bg-lightgrey-2 bb-grey block stagger1">
     <div>
     	<center>
